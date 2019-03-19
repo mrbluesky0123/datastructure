@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex05",
+            "request": "launch",
+            "mainClass": "Ex05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Node",
+            "request": "launch",
+            "mainClass": "Node"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyLinkedListTest",
+            "request": "launch",
+            "mainClass": "MyLinkedListTest"
+        }
+    ]
+}

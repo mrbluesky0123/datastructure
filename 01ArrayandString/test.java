@@ -39,6 +39,10 @@ public class test{
 
 		int[] ax = {1, 2, 3};
 
+		String qw = "asd";
+		String b = "111";
+		System.out.println( Object.equals(qw, b));
+		
 
 	}
 	

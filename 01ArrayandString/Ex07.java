@@ -51,12 +51,15 @@ class RotateMatrix{
     
         int diffIdx = 0;
         
+        /* {0, 1, 2, ... , N-2, N-1, N} */
         for(int i = 0; i < lenX; i++){
 
             diffX[i] = startX;
             startX += 1;
 
         }
+
+        /* {N, N-1, N-2, ... , 2, 1, 0} */
         for(int j = 0; j < lenY; j++){
 
             diffY[j] = startY;
